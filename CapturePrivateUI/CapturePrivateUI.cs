@@ -1,5 +1,5 @@
 using HarmonyLib;
-using NeosModLoader;
+using ResoniteModLoader;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -9,11 +9,11 @@ using FrooxEngine;
 
 namespace CapturePrivateUI
 {
-    public class CapturePrivateUI : NeosMod
+    public class CapturePrivateUI : ResoniteMod
     {
         public override string Name => "CapturePrivateUI";
         public override string Author => "art0007i";
-        public override string Version => "1.1.0";
+        public override string Version => "2.0.0";
         public override string Link => "https://github.com/art0007i/CapturePrivateUI/";
 
         [AutoRegisterConfigKey]
